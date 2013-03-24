@@ -1,0 +1,10 @@
+---
+layout: default
+title: sublime添加浏览器预览
+---
+<h2>{{ page.title }}</h2>
+<p>听人说可以在Package Control 里安装了个view in browse，尼马一直提示 No Build System , google了下解决方法，修改快捷键也不好使，鼓捣半天也没解决掉，无奈重新安装下吧，于是找到了另一个版本的 
+View in Browse，是github提供的，还好昨天安装了git，
+    按上边的教程，进入sublime的package安装包下（在sublime-text2--->preferences-->Browse Packages） git clone  https://github.com/qgy18/sublime-view-in-browser ，clone完，改下名字 view-in-browser 然后重启下sublime，shift+Ctrl+b就可以用了</p>
+    
+<p>{{ page.date | date_to_string }}</p>
